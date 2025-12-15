@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Ilvara Mizzrym",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/ilvara.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Drow priestess in command of Velkynvelve. Cold, cruel, and methodical.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Ilvara",
+      "disposition": -1,
+      "sight": { "enabled": true, "range": 120 },
+      "vision": true,
+      "bar1": { "attribute": "attributes.hp" }
+    }
+  },
+  {
+    "name": "Shoor Vandree",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/shoor.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Ilvara’s brutal enforcer. Loves violence and intimidation.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Shoor",
+      "disposition": -1,
+      "sight": { "enabled": true, "range": 120 },
+      "vision": true,
+      "bar1": { "attribute": "attributes.hp" }
+    }
+  },
+  {
+    "name": "Jorlan Duskryn",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/jorlan.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Disgraced drow officer. Secretly sabotages patrols and watches.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Jorlan",
+      "disposition": -1,
+      "sight": { "enabled": true, "range": 120 },
+      "vision": true
+    }
+  },
+  {
+    "name": "Drow Guard",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/drow-guard.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Standard drow guard assigned to Velkynvelve.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Drow Guard",
+      "disposition": -1,
+      "sight": { "enabled": true, "range": 120 },
+      "vision": true
+    }
+  },
+  {
+    "name": "Quaggoth",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/quaggoth.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Feral brute used as muscle by the drow.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Quaggoth",
+      "disposition": -1,
+      "sight": { "enabled": true, "range": 60 },
+      "vision": true
+    }
+  },
+  {
+    "name": "Stool",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/stool.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Gentle myconid sprout. Communicates with spores.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Stool",
+      "disposition": 1,
+      "sight": { "enabled": true, "range": 30 },
+      "vision": true
+    }
+  },
+  {
+    "name": "Jimjar",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/jimjar.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Cheerful deep gnome gambler who never stops betting.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Jimjar",
+      "disposition": 1,
+      "sight": { "enabled": true, "range": 60 },
+      "vision": true
+    }
+  },
+  {
+    "name": "Eldeth Feldrun",
+    "type": "npc",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/tokens/eldeth.webp",
+    "system": {
+      "details": {
+        "biography": {
+          "value": "<p>Gruff dwarf scout. Focused on survival and escape.</p>"
+        }
+      }
+    },
+    "prototypeToken": {
+      "name": "Eldeth",
+      "disposition": 1,
+      "sight": { "enabled": true, "range": 60 },
+      "vision": true
+    }
+  }
+]
