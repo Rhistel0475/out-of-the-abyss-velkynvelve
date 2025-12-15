@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Velkynvelve Outpost",
+    "type": "scene",
+    "img": "modules/out-of-the-abyss-velkynvelve/assets/velkynvelve.webp",
+    "width": 8400,
+    "height": 5600,
+    "padding": 0.25,
+    "backgroundColor": "#000000",
+    "grid": {
+      "type": 1,
+      "size": 70,
+      "distance": 5,
+      "units": "ft"
+    },
+    "initial": {
+      "x": 4200,
+      "y": 2800,
+      "scale": 0.6
+    },
+    "tokenVision": true,
+    "globalLight": false,
+    "fogExploration": true,
+    "fogReset": 0,
+    "navigation": true,
+    "navName": "Velkynvelve",
+    "navOrder": 1,
+    "lights": [
+      {
+        "x": 6400,
+        "y": 2100,
+        "rotation": 0,
+        "config": {
+          "alpha": 0.35,
+          "angle": 360,
+          "bright": 15,
+          "dim": 40,
+          "color": "#ffae5d",
+          "animation": {
+            "type": "torch",
+            "speed": 2,
+            "intensity": 5
+          }
+        }
+      },
+      {
+        "x": 2100,
+        "y": 4300,
+        "rotation": 0,
+        "config": {
+          "alpha": 0.35,
+          "angle": 360,
+          "bright": 10,
+          "dim": 30,
+          "color": "#ff9b54",
+          "animation": {
+            "type": "torch",
+            "speed": 2,
+            "intensity": 4
+          }
+        }
+      }
+    ],
+    "sounds": [
+      {
+        "x": 1200,
+        "y": 3500,
+        "path": "modules/out-of-the-abyss-velkynvelve/assets/sfx/waterfall.ogg",
+        "radius": 600,
+        "volume": 0.4,
+        "repeat": true
+      }
+    ],
+    "walls": [],
+    "tokens": [],
+    "notes": []
+  }
+]
