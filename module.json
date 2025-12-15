@@ -1,0 +1,58 @@
+{
+  "id": "out-of-the-abyss-velkynvelve",
+  "title": "Out of the Abyss – Chapter 1: Velkynvelve",
+  "description": "Foundry VTT v13 module containing Chapter 1 (Velkynvelve): scenes, NPCs, roll tables, events, and journals.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Sean Brian Smith"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "velkynvelve-scenes",
+      "label": "Velkynvelve – Scenes",
+      "type": "Scene",
+      "path": "packs/velkynvelve-scene.json"
+    },
+    {
+      "name": "velkynvelve-npcs",
+      "label": "Velkynvelve – NPCs",
+      "type": "Actor",
+      "path": "packs/velkynvelve-npcs.json"
+    },
+    {
+      "name": "velkynvelve-tables",
+      "label": "Velkynvelve – Roll Tables",
+      "type": "RollTable",
+      "path": "packs/velkynvelve-tables.json"
+    },
+    {
+      "name": "velkynvelve-events",
+      "label": "Velkynvelve – Event Macros",
+      "type": "Macro",
+      "path": "packs/velkynvelve-events.json"
+    },
+    {
+      "name": "velkynvelve-journals",
+      "label": "Velkynvelve – Journals",
+      "type": "JournalEntry",
+      "path": "packs/velkynvelve-journals.json"
+    }
+  ]
+}
