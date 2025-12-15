@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Velkynvelve Trouble (1d8)",
+    "type": "rolltable",
+    "img": "icons/svg/d20-grey.svg",
+    "description": "Small complications and living-world beats inside Velkynvelve.",
+    "formula": "1d8",
+    "replacement": true,
+    "displayRoll": true,
+    "results": [
+      { "type": 0, "text": "A quaggoth starts snarling and pacing. Guards tighten chains and watch the pens.", "weight": 1, "range": [1, 1], "drawn": false },
+      { "type": 0, "text": "A drow acolyte marks a post with ichor. The air feels colder for a moment.", "weight": 1, "range": [2, 2], "drawn": false },
+      { "type": 0, "text": "A prisoner collapses from exhaustion. A guard threatens punishment if anyone moves.", "weight": 1, "range": [3, 3], "drawn": false },
+      { "type": 0, "text": "Jorlan delays a patrol with ‘inspection’. You gain a short window nearby.", "weight": 1, "range": [4, 4], "drawn": false },
+      { "type": 0, "text": "A faint spore haze drifts through the pen. Stool looks anxious but quiet.", "weight": 1, "range": [5, 5], "drawn": false },
+      { "type": 0, "text": "A torch sputters low. Shadows deepen; stealth becomes easier for a moment.", "weight": 1, "range": [6, 6], "drawn": false },
+      { "type": 0, "text": "Bridge webbing creaks loudly. Anyone crossing must slow down or risk noise.", "weight": 1, "range": [7, 7], "drawn": false },
+      { "type": 0, "text": "Ilvara appears and speaks a quiet threat. Fear spikes; mistakes become likely.", "weight": 1, "range": [8, 8], "drawn": false }
+    ]
+  },
+  {
+    "name": "Guard Patrol Beat (1d6)",
+    "type": "rolltable",
+    "img": "icons/svg/eye.svg",
+    "description": "Roll to move patrols and keep the outpost feeling alive.",
+    "formula": "1d6",
+    "replacement": true,
+    "displayRoll": true,
+    "results": [
+      { "type": 0, "text": "Two drow cross a bridge and scan the cavern below.", "weight": 1, "range": [1, 1], "drawn": false },
+      { "type": 0, "text": "A lone elite pauses to check a rope line; their back is turned briefly.", "weight": 1, "range": [2, 2], "drawn": false },
+      { "type": 0, "text": "A guard counts prisoners at the pen, then moves on.", "weight": 1, "range": [3, 3], "drawn": false },
+      { "type": 0, "text": "A patrol gathers at the guard tower, leaving another area under-watched.", "weight": 1, "range": [4, 4], "drawn": false },
+      { "type": 0, "text": "A handler drags a quaggoth past. The handler is distracted and vulnerable.", "weight": 1, "range": [5, 5], "drawn": false },
+      { "type": 0, "text": "Jorlan reassigns someone; patrol timing shifts for a few minutes.", "weight": 1, "range": [6, 6], "drawn": false }
+    ]
+  },
+  {
+    "name": "Escape Hazard (1d10)",
+    "type": "rolltable",
+    "img": "icons/svg/falling.svg",
+    "description": "Use when crossing bridges, climbing, using the waterfall route, or racing the alarm.",
+    "formula": "1d10",
+    "replacement": true,
+    "displayRoll": true,
+    "results": [
+      { "type": 0, "text": "A board/web strand snaps. A loud crack echoes—raise suspicion.", "weight": 1, "range": [1, 1], "drawn": false },
+      { "type": 0, "text": "Loose rock skitters into the chasm. A guard looks over the edge.", "weight": 1, "range": [2, 2], "drawn": false },
+      { "type": 0, "text": "A rope line is frayed—movement is slower here unless stabilized.", "weight": 1, "range": [3, 3], "drawn": false },
+      { "type": 0, "text": "Torch smoke betrays position. Anyone with flame must cover/snub it.", "weight": 1, "range": [4, 4], "drawn": false },
+      { "type": 0, "text": "A gust sways the bridge. Aim and footing are harder for a moment.", "weight": 1, "range": [5, 5], "drawn": false },
+      { "type": 0, "text": "Sticky webbing grabs boots—someone loses momentum or makes noise.", "weight": 1, "range": [6, 6], "drawn": false },
+      { "type": 0, "text": "Water-slick stone near the pool. A slip causes a loud splash.", "weight": 1, "range": [7, 7], "drawn": false },
+      { "type": 0, "text": "A distant shout—another patrol converges toward the sound.", "weight": 1, "range": [8, 8], "drawn": false },
+      { "type": 0, "text": "A quaggoth roars and strains at chains; chaos may erupt nearby.", "weight": 1, "range": [9, 9], "drawn": false },
+      { "type": 0, "text": "Lantern light sweeps the route. Freeze or hide—or trigger a chase.", "weight": 1, "range": [10, 10], "drawn": false }
+    ]
+  },
+  {
+    "name": "Pursuit Escalation (1d6)",
+    "type": "rolltable",
+    "img": "icons/svg/bell.svg",
+    "description": "Roll once the escape is confirmed to add pressure in a fair, escalating way.",
+    "formula": "1d6",
+    "replacement": true,
+    "displayRoll": true,
+    "results": [
+      { "type": 0, "text": "Whistles echo. Two guards move to chokepoints.", "weight": 1, "range": [1, 1], "drawn": false },
+      { "type": 0, "text": "An elite takes a ranged position to slow the escapees.", "weight": 1, "range": [2, 2], "drawn": false },
+      { "type": 0, "text": "Quaggoths are released; they rush toward noise and blood.", "weight": 1, "range": [3, 3], "drawn": false },
+      { "type": 0, "text": "Ilvara arrives at a vantage point and begins directing the hunt.", "weight": 1, "range": [4, 4], "drawn": false },
+      { "type": 0, "text": "A quick net/web trap goes up across a likely route.", "weight": 1, "range": [5, 5], "drawn": false },
+      { "type": 0, "text": "Full lockdown: doors barred, patrols doubled, lights relit.", "weight": 1, "range": [6, 6], "drawn": false }
+    ]
+  }
+]
