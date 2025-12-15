@@ -1,0 +1,65 @@
+[
+  {
+    "name": "C1 – Velkynvelve: DM Cheat Sheet",
+    "type": "journal",
+    "img": "icons/svg/book.svg",
+    "pages": [
+      {
+        "name": "Overview",
+        "type": "text",
+        "text": {
+          "content": "<h2>Velkynvelve (Chapter 1)</h2><p><b>Theme:</b> Fear, captivity, planning, and escape.</p><p><b>Your job:</b> Make the outpost feel alive but never hopeless. Always leave at least one possible way forward.</p><ul><li>Use Patrol Ticks to keep pressure up</li><li>Use the Alarm Track to pace danger</li><li>Let NPC prisoners suggest ideas</li></ul>"
+        }
+      },
+      {
+        "name": "Escape Routes",
+        "type": "text",
+        "text": {
+          "content": "<h3>Possible Escape Routes</h3><ul><li><b>Waterfall Tunnel:</b> Quiet but slippery. Sound is masked.</li><li><b>Rope Lifts:</b> Risky but fast with good planning.</li><li><b>Bridges:</b> Most direct and most dangerous.</li></ul>"
+        }
+      }
+    ]
+  },
+  {
+    "name": "C1 – Player Handout: Captured",
+    "type": "journal",
+    "img": "icons/svg/cave.svg",
+    "pages": [
+      {
+        "name": "You Awaken in Darkness",
+        "type": "text",
+        "text": {
+          "content": "<p>You awaken in a hanging cage of webbing and iron. The air is cold and damp. Far below, water crashes endlessly into darkness.</p><p>You have no weapons. No armor. Only your wits—and the strangers trapped beside you.</p>"
+        }
+      }
+    ]
+  },
+  {
+    "name": "C1 – Prisoner NPC Notes",
+    "type": "journal",
+    "img": "icons/svg/people.svg",
+    "pages": [
+      {
+        "name": "Prisoners",
+        "type": "text",
+        "text": {
+          "content": "<ul><li><b>Stool:</b> Gentle, curious, helpful through spores.</li><li><b>Jimjar:</b> Constantly betting, oddly perceptive.</li><li><b>Eldeth:</b> Practical, disciplined, escape-focused.</li><li><b>Ront:</b> Bully, responds to strength.</li><li><b>Shuushar:</b> Pacifist, wants no violence.</li><li><b>Derendil:</b> Regal delusions, unstable.</li><li><b>Sarith:</b> Knows survival but keeps secrets.</li><li><b>Buppido:</b> Cheerful in unsettling ways.</li></ul>"
+        }
+      }
+    ]
+  },
+  {
+    "name": "C1 – Drow Command",
+    "type": "journal",
+    "img": "icons/svg/skull.svg",
+    "pages": [
+      {
+        "name": "Drow Leadership",
+        "type": "text",
+        "text": {
+          "content": "<ul><li><b>Ilvara:</b> Cold, calculating priestess. Directs the hunt.</li><li><b>Shoor:</b> Brutal enforcer. Loves open violence.</li><li><b>Jorlan:</b> Disgraced officer. May sabotage patrols.</li></ul>"
+        }
+      }
+    ]
+  }
+]
