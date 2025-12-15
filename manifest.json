@@ -1,0 +1,13 @@
+{
+  "id": "out-of-the-abyss-velkynvelve",
+  "title": "Out of the Abyss – Chapter 1: Velkynvelve",
+  "description": "Chapter 1 tools: scene setup, NPC shells, roll tables, macros, journals.",
+  "version": "1.0.0",
+  "authors": [{ "name": "Sean Brian Smith" }],
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "relationships": {
+    "systems": [{ "id": "dnd5e", "type": "system" }]
+  },
+  "manifest": "PASTE_RAW_MANIFEST_JSON_URL_HERE",
+  "download": "PASTE_GITHUB_RELEASE_ZIP_URL_HERE"
+}
