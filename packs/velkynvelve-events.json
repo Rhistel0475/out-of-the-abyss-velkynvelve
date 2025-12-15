@@ -1,0 +1,26 @@
+[
+  {
+    "name": "C1 – Alarm Track",
+    "type": "script",
+    "img": "icons/svg/bell.svg",
+    "command": "const key='oota-c1-alarm';const current=game.settings.get('core',key)||0;new Dialog({title:'Alarm Track',content:`<p>Current Alarm: <b>${current}</b></p><p>Enter change (+ or -):</p><input id='alarm' type='number' value='1'/>`,buttons:{ok:{label:'Apply',callback:async html=>{const v=Number(html.find('#alarm').val());const next=current+v;await game.settings.set('core',key,next);ui.notifications.info(`Alarm now ${next}`);}},reset:{label:'Reset',callback:async()=>{await game.settings.set('core',key,0);ui.notifications.info('Alarm reset');}}}}).render(true);"
+  },
+  {
+    "name": "C1 – Patrol Tick",
+    "type": "script",
+    "img": "icons/svg/eye.svg",
+    "command": "const t=game.tables.getName('Guard Patrol Beat (1d6)');if(!t)return ui.notifications.error('Table not found');const r=await t.roll();await t.draw({roll:r.roll,displayChat:true});"
+  },
+  {
+    "name": "C1 – Escape Hazard",
+    "type": "script",
+    "img": "icons/svg/falling.svg",
+    "command": "const t=game.tables.getName('Escape Hazard (1d10)');if(!t)return ui.notifications.error('Table not found');const r=await t.roll();await t.draw({roll:r.roll,displayChat:true});"
+  },
+  {
+    "name": "C1 – Pursuit Escalation",
+    "type": "script",
+    "img": "icons/svg/siren.svg",
+    "command": "const t=game.tables.getName('Pursuit Escalation (1d6)');if(!t)return ui.notifications.error('Table not found');const r=await t.roll();await t.draw({roll:r.roll,displayChat:true});const key='oota-c1-alarm';const c=game.settings.get('core',key)||0;await game.settings.set('core',key,c+1);ui.notifications.info(`Alarm now ${c+1}`);"
+  }
+]
